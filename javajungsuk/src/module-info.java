@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author wwiwtb
+ *
+ */
+module javajungsuk {
+}
