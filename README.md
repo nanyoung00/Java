@@ -1,8 +1,8 @@
 # Java
-Java를 공부한 실습파일
+Java pratice file collection
 
 ----------------------
 
-- 서블릿 간단한 계산기 : 두 수를 입력 받아 사칙연산을 하는 계산기
-- 서블릿 사칙연산 웹 계산기 : 입력 받는 수에 제한 없는 사칙연산 계산기<br>
-(숫자 출력 과정에서 Script Engine의 문제를 해결하지 못했음)
+- Servlet Simple web Calculator : Input two numbers and perform four arithmetic operations
+- 서블릿 사칙연산 웹 계산기 : No limit for input numbers and works same as above<br>
+(There is error about JavaScript Engine)
