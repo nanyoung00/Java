@@ -1,5 +1,5 @@
 # Java
-Java pratice file collection
+Java pratice project collection
 
 ----------------------
 
