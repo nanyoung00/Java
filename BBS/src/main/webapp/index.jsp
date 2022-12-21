@@ -1,5 +1,8 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+    <%--Move Page--%>
+    <script>
+        location.href = 'login.jsp';
+    </script>
 </body>
 </html>
