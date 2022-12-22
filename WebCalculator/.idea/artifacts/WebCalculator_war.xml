@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebCalculator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebCalculator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WebCalculator-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WebCalculator:war exploded" />
+    </root>
+  </artifact>
+</component>
