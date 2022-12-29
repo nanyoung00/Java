@@ -9,20 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ce5370-c1fb-47ed-89db-9868ec2d4d74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WebCalculator_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WebCalculator_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/DungGeunMo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="ffc7a4a5-3cfa-4ae6-97a2-e455800d7e5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Add2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/AddCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/NoticeReg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/DungGeunMo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/WebCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -50,7 +53,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JFzFjNmD1othJImXOzHLFywxdv" />
+  <component name="ProjectId" id="2JXBj2Ov0FDkxn7YWzhA0aVmxOj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -60,36 +63,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/wwiwtb/git/Java/WebCalculator/src/main/webapp/WEB-INF",
-    "list.type.of.created.stylesheet": "CSS",
+    "last_opened_file_path": "/Users/wwiwtb/git/Java/WebCalculator/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19655173",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "settings.editor.splitter.proportion": "0.27030033"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jspprj.webcalculator" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager">
+    <configuration name="add.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebCalculator/src/main/webapp/add.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="add.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/add.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/hello.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8081/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="reg.html (1)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/WebCalculator/src/main/webapp/reg.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="reg.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/reg.html">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="WebCalculator:war exploded">
           <settings>
@@ -98,7 +116,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="513d7766-889a-4fdf-9c2f-cdc99b0cbd65" />
+        <option name="BASE_DIRECTORY_NAME" value="0acb95d3-76ed-4fec-886d-01c11cf0c599" />
         <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -107,7 +125,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58307" />
+        <option name="DEBUG_PORT" value="65052" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -176,16 +194,39 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.reg.html (1)" />
+      <item itemvalue="JavaScript Debug.add.html (1)" />
+      <item itemvalue="JavaScript Debug.add.html" />
+      <item itemvalue="JavaScript Debug.hello.html" />
+      <item itemvalue="JavaScript Debug.reg.html" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.add.html" />
+        <item itemvalue="JavaScript Debug.add.html (1)" />
+        <item itemvalue="JavaScript Debug.reg.html" />
+        <item itemvalue="JavaScript Debug.hello.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22ce5370-c1fb-47ed-89db-9868ec2d4d74" name="Changes" comment="" />
-      <created>1671688517707</created>
+      <changelist id="ffc7a4a5-3cfa-4ae6-97a2-e455800d7e5b" name="Changes" comment="" />
+      <created>1672214680816</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671688517707</updated>
-      <workItem from="1671688518809" duration="8053000" />
+      <updated>1672214680816</updated>
+      <workItem from="1672214682333" duration="13425000" />
+      <workItem from="1672291448480" duration="208000" />
+      <workItem from="1672291660425" duration="1285000" />
+      <workItem from="1672292968904" duration="1110000" />
+      <workItem from="1672294086569" duration="4525000" />
+      <workItem from="1672298625846" duration="181000" />
+      <workItem from="1672298829818" duration="3067000" />
     </task>
     <servers />
   </component>
