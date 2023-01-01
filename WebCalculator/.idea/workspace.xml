@@ -9,23 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc7a4a5-3cfa-4ae6-97a2-e455800d7e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Add2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/AddCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/NoticeReg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CharacterEncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/add2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="ffc7a4a5-3cfa-4ae6-97a2-e455800d7e5b" name="Changes" comment="서블릿 계산기 안되는거 다시 다 고치는 중ㅠㅠ">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Calc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calc2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/DungGeunMo.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/WebCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/toyproject/webcalculator/calc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Add2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jspprj/webcalculator/Add2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/wwiwtb/git/Java/WebCalculator/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.19655173",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.27030033"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wwiwtb/git/Java/WebCalculator/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19655173&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.27030033&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
@@ -88,13 +77,16 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="add2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebCalculator/src/main/webapp/add2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="add2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/add2.html">
+      <method v="2" />
+    </configuration>
     <configuration name="add.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebCalculator/src/main/webapp/add.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="add.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/add.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/hello.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8081/index.html">
@@ -197,18 +189,20 @@
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.reg.html (1)" />
+      <item itemvalue="JavaScript Debug.add2.html (1)" />
       <item itemvalue="JavaScript Debug.add.html (1)" />
+      <item itemvalue="JavaScript Debug.add2.html" />
       <item itemvalue="JavaScript Debug.add.html" />
-      <item itemvalue="JavaScript Debug.hello.html" />
       <item itemvalue="JavaScript Debug.reg.html" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.add2.html (1)" />
+        <item itemvalue="JavaScript Debug.add2.html" />
         <item itemvalue="JavaScript Debug.add.html" />
         <item itemvalue="JavaScript Debug.add.html (1)" />
         <item itemvalue="JavaScript Debug.reg.html" />
-        <item itemvalue="JavaScript Debug.hello.html" />
       </list>
     </recent_temporary>
   </component>
@@ -226,8 +220,18 @@
       <workItem from="1672292968904" duration="1110000" />
       <workItem from="1672294086569" duration="4525000" />
       <workItem from="1672298625846" duration="181000" />
-      <workItem from="1672298829818" duration="3067000" />
+      <workItem from="1672298829818" duration="4169000" />
+      <workItem from="1672324131275" duration="1085000" />
+      <workItem from="1672350247494" duration="2505000" />
     </task>
+    <task id="LOCAL-00001" summary="서블릿 계산기 안되는거 다시 다 고치는 중ㅠㅠ">
+      <created>1672320761680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672320761680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,5 +247,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="서블릿 계산기 안되는거 다시 다 고치는 중ㅠㅠ" />
+    <option name="LAST_COMMIT_MESSAGE" value="서블릿 계산기 안되는거 다시 다 고치는 중ㅠㅠ" />
   </component>
 </project>

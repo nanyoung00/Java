@@ -17,16 +17,14 @@ public class Add2 extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html; charset=UTF-8");
 
-        String x_ = req.getParameter("x");
-        String y_ = req.getParameter("y");
+        String[] num_ = req.getParameterValues("num");
 
-        int x = 0;
-        int y = 0;
+        int result = 0;
 
-        if(!x_.equals("")) x = Integer.parseInt(x_);
-        if(!y_.equals("")) y = Integer.parseInt(y_);
-
-        int result = x+y;
+        for(int i=0; i<num_.length; i++) {
+            int num = Integer.parseInt(num_[i]);
+            result += num;
+        }
 
         resp.getWriter().printf("Result is %d\n", result);
 
