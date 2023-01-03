@@ -59,7 +59,7 @@ public class WebCalculator extends HttpServlet {
             exp += (dot == null) ? "" : dot;
         }
         Cookie expCookie = new Cookie("exp", exp);
-        if (op != null && (op.equals("CE") || op.equals("C"))) {
+        if (op != null && op.equals("C")) {
             expCookie.setMaxAge(0);
         }
         expCookie.setPath("/webCalc");
@@ -85,7 +85,7 @@ public class WebCalculator extends HttpServlet {
         }
        PrintWriter out = resp.getWriter();
 
-        out.write("<!DOCTYPE html");
+        out.write("<!DOCTYPE html>");
         out.write("<html>");
         out.write("<head>");
         out.write("<meta charset=\"UTF-8\">");
